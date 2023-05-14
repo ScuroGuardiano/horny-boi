@@ -1,0 +1,94 @@
+{
+  "type": "Chunk",
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "identifier": {
+        "type": "Identifier",
+        "name": "declareGlobalPrintHello"
+      },
+      "isLocal": false,
+      "parameters": [],
+      "body": [
+        {
+          "type": "FunctionDeclaration",
+          "identifier": {
+            "type": "Identifier",
+            "name": "printHello"
+          },
+          "isLocal": false,
+          "parameters": [],
+          "body": [
+            {
+              "type": "CallStatement",
+              "expression": {
+                "type": "CallExpression",
+                "base": {
+                  "type": "Identifier",
+                  "name": "print"
+                },
+                "arguments": [
+                  {
+                    "type": "StringLiteral",
+                    "value": null,
+                    "raw": "\"Hello\""
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "CallStatement",
+      "expression": {
+        "type": "CallExpression",
+        "base": {
+          "type": "Identifier",
+          "name": "declareGlobalPrintHello"
+        },
+        "arguments": []
+      }
+    },
+    {
+      "type": "CallStatement",
+      "expression": {
+        "type": "CallExpression",
+        "base": {
+          "type": "Identifier",
+          "name": "printHello"
+        },
+        "arguments": []
+      }
+    },
+    {
+      "type": "AssignmentStatement",
+      "variables": [
+        {
+          "type": "Identifier",
+          "name": "printHello"
+        }
+      ],
+      "init": [
+        {
+          "type": "StringLiteral",
+          "value": null,
+          "raw": "\"xd\""
+        }
+      ]
+    },
+    {
+      "type": "CallStatement",
+      "expression": {
+        "type": "CallExpression",
+        "base": {
+          "type": "Identifier",
+          "name": "printHello"
+        },
+        "arguments": []
+      }
+    }
+  ],
+  "comments": []
+}
